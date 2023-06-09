@@ -6,7 +6,7 @@
 nav {
   background: #be3144;
   height: 70px;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 nav ul {
@@ -27,7 +27,6 @@ nav a {
 }
 nav li a:hover {
   background: #45567d;
-  ;
 }
 
 #welcome-section {
