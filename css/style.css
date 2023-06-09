@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    background: #be3144;
+    height: 70px;
+  }
+  
+  nav ul {
+    display: flex;
+    min-height: 100%;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    padding: 0 20px 0
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;  
+  }
+nav li a:hover {
+  background: blueviolet;
+  padding: 28% 10px
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
