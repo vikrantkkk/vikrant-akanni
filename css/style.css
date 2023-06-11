@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  height:90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #303841;
+  color: white;
+}
+
+.icon h1 {
+  font: 55px Raleway, sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.icon p {
+  font-style: italic;
+  font: 16px Poppins, sans-serif;
+  margin-top: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+.profileLink ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.profileLink ul li {
+  font-size: 22px;
+  color: white;
+  font-weight: 700;
+};
+
+nav li:hover{
+  color: red;
+  display: none;
+}
+
+.footer {
+ height: 10vh;
+}
+.content_footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon hr {
+  border: none;
+  height: 4px;
+  background-color: red;
+  width: 100vw;
+  margin-top: 20px;
+}
