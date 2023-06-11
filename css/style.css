@@ -32,15 +32,13 @@
 }
 
 .profileLink ul li {
+  display: flex;
+  gap: 10px;
   font-size: 22px;
   color: white;
   font-weight: 700;
 };
 
-nav li:hover{
-  color: red;
-  display: none;
-}
 
 .footer {
  height: 10vh;
@@ -56,4 +54,10 @@ nav li:hover{
   background-color: red;
   width: 100vw;
   margin-top: 20px;
+}
+
+nav li:hover {
+  transform: translateY(10px);
+  transition: all .5s ease;
+  cursor: pointer;
 }
