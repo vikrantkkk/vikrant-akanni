@@ -46,6 +46,8 @@
 .content_footer {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.5rem;
 }
 
 .icon hr {
